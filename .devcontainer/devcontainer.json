@@ -1,4 +1,13 @@
 {
-    "image": "mivainc/agency-partners:10.09.02-RC1", // Replace with your image
-    "name": "Miva Snippets IDE"
+    "name": "Miva Snippets IDE",
+    "image": "mivainc/agency-partners:latest",
+    "settings": {
+        "terminal.integrated.shell.linux": "/bin/bash"
+    },
+    "extensions": [
+        "ms-azuretools.vscode-docker",
+        "ms-vscode-remote.remote-containers"
+    ],
+    "postCreateCommand": "echo 'Container Initialized'",
+    "remoteUser": "root"
 }
