@@ -1,6 +1,6 @@
 {
     "name": "Miva Snippets IDE",
-    "image": "mivainc/agency-partners:latest",
+    "image": "mivainc/agency-partners:10.09.02-RC1",
     "settings": {
         "terminal.integrated.shell.linux": "/bin/bash"
     },
